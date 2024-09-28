@@ -24,3 +24,42 @@ input {
   padding: 8px 24px;
   width: 400px;
 }
+
+/* added under here. unlike prior problems (inline after adding a space) */
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-links, .right-links {
+  list-style: none;
+  display: flex;
+  gap: 5px;
+  padding: 0 5px 0 5px;
+}
+
+.footer {
+  display: flex;
+  background-color: #eeeeee;
+  justify-content: space-between;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.buttons {
+  padding: 5px;
+}
+button {
+  padding: 10px;
+}
